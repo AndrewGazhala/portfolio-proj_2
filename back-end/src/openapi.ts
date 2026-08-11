@@ -7,8 +7,8 @@ export const openApiSpec = {
   },
   servers: [
     {
-      url: "http://localhost:3000",
-      description: "Local development server",
+      url: "http://localhost:3000/api/v1",
+      description: "API v1",
     },
   ],
   paths: {
