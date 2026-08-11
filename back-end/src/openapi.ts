@@ -1,3 +1,17 @@
+/**
+ * OpenAPI 3.0 specification for the Portfolio API.
+ *
+ * Consumed by Swagger UI middleware to render interactive docs.
+ *
+ * @module openapi
+ */
+
+/**
+ * OpenAPI document describing the v1 API surface.
+ *
+ * Server base URL is `http://localhost:3000/api/v1`, so path
+ * entries are relative to that prefix (e.g. `/health` → `/api/v1/health`).
+ */
 export const openApiSpec = {
   openapi: "3.0.3",
   info: {

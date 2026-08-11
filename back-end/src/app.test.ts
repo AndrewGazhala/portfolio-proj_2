@@ -1,3 +1,13 @@
+/**
+ * API integration tests.
+ *
+ * Exercises the Express app in-process with Supertest
+ * (routes, middleware, and JSON responses). No mocks —
+ * the real app wiring is used.
+ *
+ * @module app.test
+ */
+
 import request from "supertest";
 import app from "./app";
 
