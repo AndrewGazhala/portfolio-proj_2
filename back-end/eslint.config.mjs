@@ -18,6 +18,12 @@ export default tseslint.config(
     },
   },
   {
-    ignores: ["dist/**", "node_modules/**"],
+    files: ["**/*.test.ts"],
+    languageOptions: {
+      globals: globals.jest,
+    },
+  },
+  {
+    ignores: ["dist/**", "node_modules/**", "coverage/**"],
   },
 );
